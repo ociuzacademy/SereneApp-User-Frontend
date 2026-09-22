@@ -151,7 +151,7 @@ class _ReportHostScreenState extends State<ReportHostScreen> {
                         ),
                         const SizedBox(height: 8),
                         DropdownButtonFormField<String>(
-                          value: _selectedTitle,
+                          initialValue: _selectedTitle,
                           decoration: InputDecoration(
                             hintText: "Select Complaint Title",
                             border: OutlineInputBorder(

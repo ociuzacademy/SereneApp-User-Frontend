@@ -104,7 +104,7 @@ class _ExploreWidgetState extends State<ExploreWidget> {
                 ),
                 const SizedBox(height: 16.0),
                 DropdownButtonFormField<String>(
-                  value: _selectedPropertyType,
+                  initialValue: _selectedPropertyType,
                   decoration: const InputDecoration(
                     labelText: 'Property Type',
                     border: OutlineInputBorder(),

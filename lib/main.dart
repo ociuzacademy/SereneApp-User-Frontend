@@ -36,7 +36,7 @@ void main() async {
     initialScreen = const IntroductionScreen();
   } else {
     if (isLoggedIn) {
-       final int? userId =
+       final int userId =
           await AppLocalStorage.getUserId();
 
       debugPrint("=================================");

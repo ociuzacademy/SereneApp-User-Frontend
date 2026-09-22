@@ -141,7 +141,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                     ),
                     SizedBox(height: 15.h),
                     DropdownButtonFormField<String>(
-                      value: selectedBank,
+                      initialValue: selectedBank,
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8.r),
